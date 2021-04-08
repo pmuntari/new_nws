@@ -1,0 +1,129 @@
+@media (max-width:1200px){
+    .header .container{ padding: 0;}  
+}
+@media (max-width:992px){
+    
+}
+@media (max-width:767px){
+    .header{ position: relative;}
+    .header .link_div{ display: none;}
+    .logo img { width: 120px;}
+
+    .menu ul{ display: none;}
+    .mobile_icon { display: block;}
+	.mobile_icon.active > span:nth-child(1) { transform: rotate(45deg) translate(4px, 0px);}
+	.mobile_icon.active > span:nth-child(2) { transform: rotate(-45deg) translate(4px, 0px);}
+    .mobile_icon.active > span:nth-child(3) { display: none;}
+    .menu ul {margin: 0;padding: 0;list-style: none;position: absolute;top: 75px;left: 0;background: #fff;width: 100%;}
+    .menu ul li         {margin: 0;padding: 10px 20px;display: block;float: none;border-bottom: 1px solid rgba(0,0,0,0.2);}
+    .banner_div         {margin: 0;padding: 0;display: block;height: auto;max-height: none;min-height: auto;overflow: hidden;position: relative;}
+    .banner_content     {margin: 0;padding: 0;display: block;position: absolute;top: auto;background: rgba(28, 20, 68, 0.8);background-size: 100%;height: auto;width: 100%;bottom: 0;left: 0;}
+    .banner_content h3  { margin: 0; padding: 20px 20px; display: block; font-size: 26px; color: #fff; font-family: 'playfair'; font-weight: 900; line-height: 34px;}
+    .banner_img             { background-size: 100% auto;}
+    .marine_products::before, .marine_products::after{ display: none;}
+    .marine_products         { margin: 15px 0 0 0;padding: 15px;background: #2e4178;display: block;position: relative;}
+    .title h3                { margin: 0; padding: 0 0 15px; font-size: 20px; }
+    .marine_products ul li   { padding: 5px 0; width: 50%;}
+    .marine_products ul li a { font-size: 13px;}
+    .owl-controls{ display: none;}
+    .ftr_menu ul li { margin: 0 0 8px 15px; padding: 2px 0; display: inline-block; line-height: normal; }
+    .ftr_menu.marine-products ul li { float: none;width: 100%;}
+    .bottom_ftr .left, .bottom_ftr .right{ float: none; text-align: center;}
+    .right_content { background: #fff; padding: 20px;}
+    .right_content p{ font-size: 13px;line-height: 24px; padding-bottom: 15px;}
+    .inner_banner_div {   padding: 30px 0 20px 0px;}
+    
+    .inner_banner_div h2{ font-size: 23px; line-height: 23px;}
+    .left_img           { width: 200px; margin: 0 auto; }
+    .product_listing    { width: 100%;}
+    
+    .slider{ padding: 20px 0 0 0;}
+    .home_marine{ padding: 0px 0 20px 0;}
+    .background_video video {
+        height: 100%;
+        width: auto;
+    }
+    .about_section  { padding: 20px 0;}
+    .image_name     { padding-top: 2px}
+    .footer_top     { padding: 30px 0 0 0;}
+    .section        { padding: 0px 0;}
+    .link_div       { padding: 0px 0 10px 0;}
+    p               { font-size: 14px; line-height: 20px; margin-bottom: 20px;}
+    .about_content h4{ font-size: 16px;}
+    .sml_div         { display: block;}
+    img.desktop_map_img { display: none;}
+    .form_div {overflow: hidden; padding: 15px;}
+    .contact_div_2 .form_div h3{ padding-bottom: 10px;}
+    .frm{ padding-bottom: 12px;}
+    .info_div{ display: block; width: 100%;}
+}
+
+@media (max-width:500px){
+    .ftr_menu.marine-products {
+        margin-bottom: 20px;
+    }
+	.banner_img         { background-size:auto 100%;}
+    .banner_content h3  {margin: 0;padding: 16px 20px;display: block;font-size: 18px;color: #fff;font-family: 'playfair';font-weight: 900;line-height: 24px;    }
+    .marine_products ul li { padding: 5px 0; width: 100%; }
+    .contact_div        { margin: 0; padding: 0 0 0 20px; display: block;}
+    
+    .product_listing > div { padding: 0 15px; display: block; vertical-align: middle; text-align: center;}
+    .banner_content br     { display: none;}
+    .banner_content h3     { font-size: 14px; font-weight: 600;}
+    .services_list li      { width: 100%; display:block;}
+}
+
+
+/******* coman *****/
+@-webkit-keyframes line-scale {
+  0% {
+    -webkit-transform: scaley(1);
+            transform: scaley(1); }
+  50% {
+    -webkit-transform: scaley(0.4);
+            transform: scaley(0.4); }
+  100% {
+    -webkit-transform: scaley(1);
+            transform: scaley(1); } }
+@keyframes line-scale {
+  0% {
+    -webkit-transform: scaley(1);
+            transform: scaley(1); }
+  50% {
+    -webkit-transform: scaley(0.4);
+            transform: scaley(0.4); }
+  100% {
+    -webkit-transform: scaley(1);
+            transform: scaley(1); } }
+
+.line-scale > div:nth-child(1) {
+  -webkit-animation: line-scale 1s -0.4s infinite cubic-bezier(0.2, 0.68, 0.18, 1.08);
+          animation: line-scale 1s -0.4s infinite cubic-bezier(0.2, 0.68, 0.18, 1.08); }
+
+.line-scale > div:nth-child(2) {
+  -webkit-animation: line-scale 1s -0.3s infinite cubic-bezier(0.2, 0.68, 0.18, 1.08);
+          animation: line-scale 1s -0.3s infinite cubic-bezier(0.2, 0.68, 0.18, 1.08); }
+
+.line-scale > div:nth-child(3) {
+  -webkit-animation: line-scale 1s -0.2s infinite cubic-bezier(0.2, 0.68, 0.18, 1.08);
+          animation: line-scale 1s -0.2s infinite cubic-bezier(0.2, 0.68, 0.18, 1.08); }
+
+.line-scale > div:nth-child(4) {
+  -webkit-animation: line-scale 1s -0.1s infinite cubic-bezier(0.2, 0.68, 0.18, 1.08);
+          animation: line-scale 1s -0.1s infinite cubic-bezier(0.2, 0.68, 0.18, 1.08); }
+
+.line-scale > div:nth-child(5) {
+  -webkit-animation: line-scale 1s 0s infinite cubic-bezier(0.2, 0.68, 0.18, 1.08);
+          animation: line-scale 1s 0s infinite cubic-bezier(0.2, 0.68, 0.18, 1.08); }
+
+.loader    { display: block; text-align: center;}
+.line-scale    { display: inline-block; position: absolute; left: 50%; top: 50%;  transform: translate(-50%,-50%); -webkit-transform: translate(-50%,-50%)}
+.line-scale > div {
+  background-color: #df2928;
+  width: 2px;
+  height: 20px;
+  border-radius: 2px;
+  margin:90px 0 0 0;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  display: inline-block; }
